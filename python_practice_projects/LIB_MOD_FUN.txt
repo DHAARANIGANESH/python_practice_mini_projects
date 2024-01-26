@@ -1,0 +1,40 @@
+1.AUDIO: https://python-sounddevice.readthedocs.io/en/0.3.12/api.html
+
+ # pip install sounddevice scipy
+Requirement already satisfied: sounddevice in c:\python311\lib\site-packages (0.4.6)
+Collecting scipy
+  Downloading scipy-1.12.0-cp311-cp311-win_amd64.whl.metadata (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 kB 1.1 MB/s eta 0:00:00
+Requirement already satisfied: CFFI>=1.0 in c:\python311\lib\site-packages (from sounddevice) (1.16.0)
+Collecting numpy<1.29.0,>=1.22.4 (from scipy)
+  Downloading numpy-1.26.3-cp311-cp311-win_amd64.whl.metadata (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 1.6 MB/s eta 0:00:00
+Requirement already satisfied: pycparser in c:\python311\lib\site-packages (from CFFI>=1.0->sounddevice) (2.21)
+Downloading scipy-1.12.0-cp311-cp311-win_amd64.whl (46.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.2/46.2 MB 1.3 MB/s eta 0:00:00
+Downloading numpy-1.26.3-cp311-cp311-win_amd64.whl (15.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 1.4 MB/s eta 0:00:00
+Installing collected packages: numpy, scipy
+  WARNING: Failed to write executable - trying to use .deleteme logic
+ERROR: Could not install packages due to an OSError: [WinError 2] The system cannot find the file specified: 'C:\\Python311\\Scripts\\f2py.exe' -> 'C:\\Python311\\Scripts\\f2py.exe.deleteme'
+# pip install numpy scipy
+Requirement already satisfied: numpy in c:\python311\lib\site-packages (1.26.3)
+Collecting scipy
+  Using cached scipy-1.12.0-cp311-cp311-win_amd64.whl.metadata (60 kB)
+Using cached scipy-1.12.0-cp311-cp311-win_amd64.whl (46.2 MB)
+Installing collected packages: scipy
+Successfully installed scipy-1.12.0
+# start out.wav
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.PDF_PASSWORD_PROTECTOR: https://pypdf.readthedocs.io/en/stable/
+
+# pip install pypdf2
+Collecting pypdf2
+  Downloading pypdf2-3.0.1-py3-none-any.whl (232 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.6/232.6 kB 374.9 kB/s eta 0:00:00
+Installing collected packages: pypdf2
+Successfully installed pypdf2-3.0.1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.
